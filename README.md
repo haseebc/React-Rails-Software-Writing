@@ -142,5 +142,24 @@ You are now ready to work with a modern JavaScript environment, using ES6 syntax
 | Test Framework     | Rspec         | Jest           |
 
 
-## Javascript <a name="js"></a>
+## JavaScript <a name="js"></a>
 ### Introduction <a name="introduction"></a>
+Modern JavaScript (JS) is ES6.
+To launch a JS file:
+```bash
+node hello_world.js
+```
+In ES6 `var` is no longer used
+
+`let`  is used. The variable can change. `let` is block scoped ie. referenced only in curly brackets, so only stays where declared.
+If want to use outside then use outside before function scope.
+So its more intuitive.
+
+`const` is used when you dont want the variable to change. Hence, more restrictive.
+Always start with `const`
+
+So why do we use JS? Speed of the brwser is the main reason. Pushing 100s of files just slows up the browser.
+
+Just as Asset pipleline helps rails.
+JS client side uses webpack as a tool to do this.
+Both npm and yarn are used to fetch dependencies fron internet.
