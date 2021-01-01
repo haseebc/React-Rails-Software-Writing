@@ -9,12 +9,7 @@
 
 ## Overview
 ### Setup <a name="setup"></a>
-
-The purpose of these instructions is to give you a basic setup for the React environmnet.
-
-⚠️ **Try to look at these instructions with a critic eye**. The goal is not for you to skim over the content and blindly copy/paste the terminal commands. **Read them** first, and ask yourself, what is it going to do? You may already have 95% of the tools installed on your computer, so no need to re-install them. For every install command, we give you the check command afterwards. Maybe you can run it first to see if the tool is already there? Just a hint 🤓
-
-Let's start!
+⚠️ The purpose of these instructions is to give you a basic setup for the React environmnet. 🤓
 
 ### Oh-my-zsh
 
