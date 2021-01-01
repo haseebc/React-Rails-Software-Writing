@@ -5,7 +5,7 @@
     2. [Tools-Ruby-JS](#conclusion)
 2. [Javascript](#js)
     1. [Introduction](#introduction)
-    2. [Tools-Ruby-JS](#conclusion)
+    2. [New JS Project](#jsproject)
 
 ## Overview
 ### Setup <a name="setup"></a>
@@ -163,3 +163,5 @@ So why do we use JS? Speed of the brwser is the main reason. Pushing 100s of fil
 Just as Asset pipleline helps rails.
 JS client side uses webpack as a tool to do this.
 Both npm and yarn are used to fetch dependencies fron internet.
+### New JS Project <a name="jsproject"></a>
+
