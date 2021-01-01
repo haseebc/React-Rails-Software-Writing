@@ -164,4 +164,32 @@ Just as Asset pipleline helps rails.
 JS client side uses webpack as a tool to do this.
 Both npm and yarn are used to fetch dependencies fron internet.
 ### New JS Project <a name="jsproject"></a>
+`filename yarn init `
+add something from npm, say jquery
+```bash
+yarn add <package> [--dev]
+yarn add jqury
+```
+Project files are in `packagae.json ` this is same as a Gemfile in rails.
+`node_modules` contains the JS files.
+`touch .gitignore`This is where you want to add the node_modules files because we dont want to commit and add this fie. Its huge so don't keep adding it
+eslint helps write great code
+In ruby quality of sytax is robocop. Its a gem but great to use to have nice code
+```bash
+yarn add eslint --dev
+```
+then run the following 
+```bash
+	eslint --init
+	airbnb javascript style guide is great to use
+	https://github.com/airbnb/javascript
+	store file as json
+```
+    
+    
+    
+    
+
+
+
 
