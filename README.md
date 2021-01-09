@@ -8,7 +8,7 @@
     2. [New JS Project](#jsproject)
     3. [Boiler-plate](#jboilerplate)
 3. [React](#react)
-    1. [React in Summary](#reactsummary)
+    1. [React-Summary](#reactsummary)
     2. [New React Project](#reactproject)
     3. [New React App from Facebook](#reactappfacebook)
 4. [Useful links](#links)
@@ -190,7 +190,7 @@ then run the following
 ### Boiler plate from scratch <a name="jboilerplate"></a>
     
 ## [React](#react)
-### [React in Summary](#reactsummary)
+### [React-Summary](#reactsummary)
 A component is responsible for producing one piece of HTML
 Static data is carried by the component's props Mutable data is carried by the component's state State and events handling make interactivity possible
 Stateless components can be coded as functions 
