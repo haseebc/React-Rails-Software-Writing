@@ -244,13 +244,14 @@ Then can browse to https://haseebc.github.io/react-gifs/
 ### Simple react app and push to Prod <a name="simplereactpushtoprod"></a>
 Follow instructions here https://github.com/lewagon/react-redux-challenges/blob/master/02-Redux/01-React-Advanced/README.md
 Use this solution https://github.com/lewagon/react-flats
+```bash
 yarn add gh-pages --dev
 #add the module in your project
 webpack -p
 #create your production bundle
 gh-pages -d dist 
 https://haseebc.github.io/react-flats/
-
+```
 ### Simple react app out of thebox <a name="simplereactappfb"></a>
 ```bash
 yarn global add create-react-app
