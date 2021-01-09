@@ -7,7 +7,7 @@
     1. [Introduction](#introduction)
     2. [New JS Project](#jsproject)
     3. [Boiler-plate](#jboilerplate)
-3. [Reatct](#react)
+3. [React](#react)
     1. [React in Summary](#reactsummary)
     2. [New React Project](#reactproject)
     3. [New React App from Facebook](#reactappfacebook)
