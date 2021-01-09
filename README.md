@@ -7,6 +7,12 @@
     1. [Introduction](#introduction)
     2. [New JS Project](#jsproject)
     3. [Boiler-plate](#jboilerplate)
+3. [Reatct](#react)
+    1. [React in Summary](#reactsummary)
+    2. [New React Project](#reactproject)
+    3. [New React App from Facebook](#reactappfacebook)
+4. [Useful links](#links)
+
 
 ## Overview
 ### Setup <a name="setup"></a>
@@ -184,8 +190,44 @@ then run the following
 ### Boiler plate from scratch <a name="jboilerplate"></a>
 [Boilerplate](https://github.com/haseebc/JS_boiler_plate_from_scratch/blob/main/README.md)
     
-    
+## [React](#react)
+### [React in Summary](#reactsummary)
+A component is responsible for producing one piece of HTML
+Static data is carried by the component's props Mutable data is carried by the component's state State and events handling make interactivity possible
+Stateless components can be coded as functions 
+Stateful components need to be promoted as classes
+Anytime a component's state changes (this.setState()), its render() method is called back
+### [New React Project](#reactproject)
 
+Download boilerplate to new project `react-gifs` (or any other name)
+```bash
+cd ~/code/<github_username>
+git clone git@github.com:lewagon/react-boilerplate.git react-gifs
+cd react-gifs
+yarn install
+```
+Destroy existing boilerplate git history, and start a new one
+```bash
+rm -rf .git
+git init
+git add .
+git commit -m "Start new project from lewagon/react-boilerplate"
+```
+Create a GitHub repo, and push!
+git remote add origin git@github.com:haseebc/react-gifs.git
+git push -u origin master
+
+Launch a webpack-dev-server and open a browser at http://localhost:8080!
+or do yarn start
+### [New React App from Facebook](#reactappfacebook)
+New react app out of the box. From facebook.
+```bash
+yarn global add create-react-app
+```
+
+
+## [Useful links](#links)
+https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
 
 
 
