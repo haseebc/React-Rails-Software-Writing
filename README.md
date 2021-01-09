@@ -11,6 +11,10 @@
     1. [React-Summary](#reactsummary)
     2. [New React Project](#reactproject)
     3. [New React App from Facebook](#reactappfacebook)
+    4. [Deploy to github pages](#githubpages)
+    5. [Simple react app and push to Prod](#simplereactpushtoprod)
+    6. [Simple react app out of thebox](#simplereactappfb)
+ 
 4. [Useful links](#links)
 
 
@@ -130,6 +134,14 @@ All good?
 
 If you don't have it already, please install the `Babel` package to use the ES6 syntax in Sublime. Don't remember [how to install a package](https://www.google.com/search?q=sublime+how+to+install+a+package)?
 
+### Downgrading to an older node
+brew switch node 8.9.1
+### Switch between versions of node
+```bash
+$ brew search node
+$ brew install node@6
+$ brew link node@6
+```
 ## Tools-Ruby-JS <a name="conclusion"></a>
 
 You are now ready to work with a modern JavaScript environment, using ES6 syntax. Bear in mind the following analogies:
@@ -223,6 +235,30 @@ New react app out of the box. From facebook.
 ```bash
 yarn global add create-react-app
 ```
+### Deploy to github pages <a name="githubpages"></a>
+commit by doing the above
+```bash
+yarn deploy 
+```
+Then can browse to https://haseebc.github.io/react-gifs/
+### Simple react app and push to Prod <a name="simplereactpushtoprod"></a>
+Follow instructions here https://github.com/lewagon/react-redux-challenges/blob/master/02-Redux/01-React-Advanced/README.md
+Use this solution https://github.com/lewagon/react-flats
+yarn add gh-pages --dev
+#add the module in your project
+webpack -p
+#create your production bundle
+gh-pages -d dist 
+https://haseebc.github.io/react-flats/
+
+### Simple react app out of thebox <a name="simplereactappfb"></a>
+--------Simple react app out of thebox
+yarn global add create-react-app
+# gives you a create-react-app binary
+create-react-app myfirstreactapp
+# creates the app with a given configuration
+yarn start
+# Starts the development server.
 
 
 ## Useful links <a name="links"></a>
