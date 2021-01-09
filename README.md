@@ -252,14 +252,14 @@ gh-pages -d dist
 https://haseebc.github.io/react-flats/
 
 ### Simple react app out of thebox <a name="simplereactappfb"></a>
---------Simple react app out of thebox
+```bash
 yarn global add create-react-app
 # gives you a create-react-app binary
 create-react-app myfirstreactapp
 # creates the app with a given configuration
 yarn start
 # Starts the development server.
-
+```
 
 ## Useful links <a name="links"></a>
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
