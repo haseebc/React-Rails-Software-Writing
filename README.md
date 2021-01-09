@@ -189,14 +189,14 @@ then run the following
 ```
 ### Boiler plate from scratch <a name="jboilerplate"></a>
 [boilerplate](https://github.com/haseebc/JS_boiler_plate_from_scratch)
-## [React] <a name="react"></a>
-### [React-Summary] <a name="reactsummary"></a>
+## React <a name="react"></a>
+### React-Summary <a name="reactsummary"></a>
 A component is responsible for producing one piece of HTML
 Static data is carried by the component's props Mutable data is carried by the component's state State and events handling make interactivity possible
 Stateless components can be coded as functions 
 Stateful components need to be promoted as classes
 Anytime a component's state changes (this.setState()), its render() method is called back
-### [New React Project] <a name="reactproject"></a>
+### New React Project <a name="reactproject"></a>
 
 Download boilerplate to new project `react-gifs` (or any other name)
 ```bash
@@ -218,14 +218,14 @@ git push -u origin master
 
 Launch a webpack-dev-server and open a browser at http://localhost:8080!
 or do yarn start
-### [New React App from Facebook] <a name="reactappfacebook"></a>
+### New React App from Facebook <a name="reactappfacebook"></a>
 New react app out of the box. From facebook.
 ```bash
 yarn global add create-react-app
 ```
 
 
-## [Useful links](#links)
+## Useful links <a name="links"></a>
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
 
 
