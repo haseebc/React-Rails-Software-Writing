@@ -6,6 +6,7 @@
 2. [Javascript](#js)
     1. [Introduction](#introduction)
     2. [New JS Project](#jsproject)
+    3. [Boiler-plate](#jboilerplate)
 
 ## Overview
 ### Setup <a name="setup"></a>
