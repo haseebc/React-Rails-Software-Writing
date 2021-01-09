@@ -16,7 +16,7 @@
     6. [Simple react app out of thebox](#simplereactappfb)
  
 4. [Useful links](#links)
-
+5. [Acknowledgements](#Acknowledgements)
 
 ## Overview
 ### Setup <a name="setup"></a>
@@ -265,5 +265,5 @@ yarn start
 ## Useful links <a name="links"></a>
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
 
-
-
+## Acknowledgements <a name="Acknowledgements"></a>
+I'd like to acknowledge the LeWagon bootcamp for its excellent course and support
