@@ -295,7 +295,7 @@ npx react-native run-android
 ```
 
 ### Time to Play <a name="play"></a>
-Modify your app using App.js, make changes and thats it! The first
+Modify your app using App.js, make changes and thats it! The first reactive native app setup!
  
 ## Useful links <a name="links"></a>
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
