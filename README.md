@@ -15,6 +15,10 @@
     5. [Simple react app and push to Prod](#simplereactpushtoprod)
     6. [Simple react app out of thebox](#simplereactappfb)
 4. [React-Native](#reactnative)
+    1. [Creating a new Native Application](#createnative)
+    2. [Use a Virtual Android Device](#virtual)
+    3. [Run the App](#runapp)
+    3. [Time to Play](#play)
 5. [Useful links](#links)
 6. [Acknowledgements](#Acknowledgements)
 
@@ -263,13 +267,13 @@ yarn start
 ```
 
 ## React-Native <a name="reactnative"></a>
-### Creating a new Native Application
+### Creating a new Native Application <a name="createnative"></a>
 ```bash
 npx react-native init AwesomeProject
 #Create a new app
 ```
 
-### Use a Virtual Android Device
+### Use a Virtual Android Device <a name="virtual"></a>
 ```bash
 ./AwesomeProject/android
 #Open Android Studio into this directory
@@ -277,20 +281,20 @@ npx react-native init AwesomeProject
 
 If you have recently installed Android Studio, you will likely need to create a new AVD. Select "Create Virtual Device...", then pick any Phone from the list and click "Next", then select the Q API Level 29 image.
 
-### Run the App
-#### Step1 Start Metro
+### Run the App <a name="runapp"></a>
+#### Step1 Start Metro 
 First, you will need to start Metro, the JavaScript bundler that ships with React Native
 ```bash
 npx react-native start
 # Or if you prefer yarn
 yarn react-native start
 ```
-#### Step2 Start Your App
+#### Step2 Start Your App <a name="startapp"></a>
 ```bash
 npx react-native run-android
 ```
 
-### Time to Play
+### Time to Play <a name="play"></a>
 Modify your app using App.js
  
 ## Useful links <a name="links"></a>
