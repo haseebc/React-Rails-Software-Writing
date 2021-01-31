@@ -263,10 +263,39 @@ yarn start
 ```
 
 ## React-Native <a name="reactnative"></a>
+### Creating a new Native Application
+```bash
+npx react-native init AwesomeProject
+#Create a new app
+```
 
+### Use a Virtual Android Device
+```bash
+./AwesomeProject/android
+#Open Android Studio into this directory
+```
+
+If you have recently installed Android Studio, you will likely need to create a new AVD. Select "Create Virtual Device...", then pick any Phone from the list and click "Next", then select the Q API Level 29 image.
+
+### Run the App
+#### Step1 Start Metro
+First, you will need to start Metro, the JavaScript bundler that ships with React Native
+```bash
+npx react-native start
+# Or if you prefer yarn
+yarn react-native start
+```
+#### Step2 Start Your App
+```bash
+npx react-native run-android
+```
+
+### Time to Play
+Modify your app using App.js
  
 ## Useful links <a name="links"></a>
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
+https://reactnative.dev/docs/environment-setup setting up React Native 
 
 ## Acknowledgements <a name="Acknowledgements"></a>
 I'd like to acknowledge the LeWagon bootcamp for its excellent course and support
