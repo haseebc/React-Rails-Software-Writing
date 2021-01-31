@@ -14,9 +14,9 @@
     4. [Deploy to github pages](#githubpages)
     5. [Simple react app and push to Prod](#simplereactpushtoprod)
     6. [Simple react app out of thebox](#simplereactappfb)
- 
-4. [Useful links](#links)
-5. [Acknowledgements](#Acknowledgements)
+4. [React](#react)
+5. [Useful links](#links)
+6. [Acknowledgements](#Acknowledgements)
 
 ## Overview
 ### Setup <a name="setup"></a>
