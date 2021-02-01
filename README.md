@@ -304,7 +304,7 @@ https://reactnative.dev/docs/environment-setup setting up React Native
 
 ## Common Errors <a name="errors"></a>
 ```bash
-error Failed to install the app. Make sure you have the Android development
+error Failed to install the app. Make sure you have the Android development environment set up
 ```
 Fixed this issue by wipe data of the emulator. Go to android studio -> then open AVD Manager -> Click the triangle icon of the emulator. -> then click Wipe data. After that run react-native run-android 
 ## Acknowledgements <a name="Acknowledgements"></a>
