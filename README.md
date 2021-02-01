@@ -20,7 +20,8 @@
     3. [Run the App](#runapp)
     3. [Time to Play](#play)
 5. [Useful links](#links)
-6. [Acknowledgements](#Acknowledgements)
+6. [Common Errors](#errors)
+7. [Acknowledgements](#Acknowledgements)
 
 ## Overview
 ### Setup <a name="setup"></a>
@@ -301,5 +302,10 @@ Modify your app using App.js, make changes and thats it! The first reactive nati
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
 https://reactnative.dev/docs/environment-setup setting up React Native 
 
+## Common Errors <a name="errors"></a>
+```bash
+error Failed to install the app. Make sure you have the Android development
+```
+Fixed this issue by wipe data of the emulator. Go to android studio -> then open AVD Manager -> Click the triangle icon of the emulator. -> then click Wipe data. After that run react-native run-android 
 ## Acknowledgements <a name="Acknowledgements"></a>
 I'd like to acknowledge the LeWagon bootcamp for its excellent course and support
