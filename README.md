@@ -344,15 +344,72 @@ With props and the basic Text, Image, and View components, you can build a wide 
 #### State
 Unlike props that are read-only and should not be modified, the state allows React components to change their output over time in response to user actions, network responses and anything else.
 
-What's the difference between state and props in React?#
-In a React component, the props are the variables that we pass from a parent component to a child component. Similarly, the state are also variables, with the difference that they are not passed as parameters, but rather that the component initializes and manages them internally.
+***What's the difference between state and props in React?
+In a React component, the props are the variables that we pass from a parent component to a child component. Similarly, the state are also variables, with the difference that they are not passed as parameters, but rather that the component initializes and manages them internally.***
 
+Are there differences between React and React Native to handle the state?
+There is no difference in handling the state between React and React Native. You can use the state of your components both in classes and in functional components using hooks!
 
+In the following example we will show the same above counter example using classes.
+```bash
+import React, { Component } from 'react'
+import {
+  StyleSheet,
+  TouchableOpacity,
+  Text,
+  View,
+} from 'react-native'
 
+class App extends Component {
+  state = {
+    count: 0
+  }
 
+  onPress = () => {
+    this.setState({
+      count: this.state.count + 1
+    })
+  }
+
+ render() {
+    return (
+      <View style={styles.container}>
+        <TouchableOpacity
+         style={styles.button}
+         onPress={this.onPress}
+        >
+         <Text>Click me</Text>
+        </TouchableOpacity>
+        <View>
+          <Text>
+            You clicked { this.state.count } times
+          </Text>
+        </View>
+      </View>
+    )
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#DDDDDD',
+    padding: 10,
+    marginBottom: 10
+  }
+})
+
+export default App;
+```
 ## Useful links <a name="links"></a>
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
 https://reactnative.dev/docs/environment-setup setting up React Native 
+https://reactnative.dev/docs/tutorial the best tutorial for ReactNative
 
 ## Common Errors <a name="errors"></a>
 ```bash
