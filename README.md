@@ -18,7 +18,8 @@
     1. [Creating a new Native Application](#createnative)
     2. [Use a Virtual Android Device](#virtual)
     3. [Run the App](#runapp)
-    3. [Time to Play](#play)
+    4. [Time to Play](#play)
+    4. [Simple Native App With Stylesheet](#simplenativeapp)
 5. [Useful links](#links)
 6. [Common Errors](#errors)
 7. [Acknowledgements](#Acknowledgements)
@@ -297,7 +298,58 @@ npx react-native run-android
 
 ### Time to Play <a name="play"></a>
 Modify your app using App.js, make changes and thats it! The first reactive native app setup!
- 
+
+### Simple Native App With Stylesheet <a name="simplenativeapp"></a>
+#### Props
+Most components can be customized when they are created, with different parameters. These creation parameters are called props.
+
+Your own components can also use props. This lets you make a single component that is used in many different places in your app, with slightly different properties in each place. Refer to props.{NAME} in your functional components or this.props.{NAME} in your class components. Here's an example:
+
+```bash
+import React from 'react';
+import { Text, View, StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  center: {
+    alignItems: 'center'
+  }
+})
+
+const Greeting = (props) => {
+  return (
+    <View style={styles.center}>
+      <Text>Hello {props.name}!</Text>
+    </View>
+  );
+}
+
+const LotsOfGreetings = () => {
+  return (
+    <View style={[styles.center, {top: 50}]}>
+      <Greeting name='Rexxar' />
+      <Greeting name='Jaina' />
+      <Greeting name='Valeera' />
+    </View>
+  );
+}
+
+export default LotsOfGreetings;
+```
+Using name as a prop lets us customize the Greeting component, so we can reuse that component for each of our greetings. This example also uses the Greeting component in JSX. The power to do this is what makes React so cool.
+
+The other new thing going on here is the View component. A View is useful as a container for other components, to help control style and layout.
+
+With props and the basic Text, Image, and View components, you can build a wide variety of static screens. To learn how to make your app change over time, you need to learn about State.
+
+#### State
+Unlike props that are read-only and should not be modified, the state allows React components to change their output over time in response to user actions, network responses and anything else.
+
+What's the difference between state and props in React?#
+In a React component, the props are the variables that we pass from a parent component to a child component. Similarly, the state are also variables, with the difference that they are not passed as parameters, but rather that the component initializes and manages them internally.
+
+
+
+
 ## Useful links <a name="links"></a>
 https://babeljs.io/repl really useful for writing JS and seing what it looks like in JSX
 https://reactnative.dev/docs/environment-setup setting up React Native 
